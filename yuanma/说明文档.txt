@@ -1,0 +1,5 @@
+1、在连接MySQL时候需要老师改成自己的MySQL账号和密码，不然就来连接不上老师的MySQL；
+        String user = "mysql账号";
+        String password = "密码";
+2、我数据库里存的用户名username就是账号而不是姓名，姓名用name来储存的。
+3、运行时候先运行Server.java，再运行client.java，若要同时登录多个用户，多次运行client.java就行。（只需要运行这两个代码就行）
